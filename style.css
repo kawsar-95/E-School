@@ -1,93 +1,222 @@
-.body {   
-    position: relative;
-    width: 1440px;
-    height: 2376px;
-    background: #FFFFFF;
-      }
-
-
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header img{
+    width: 200px;
+    padding-top: 10px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    padding: 0px 20px;
+}
 .container{
+    width: 80%;
+    margin: 0 auto;
+}
+#green-btn, #card-green-btn{
+    background-color: #21B573;
+    padding: 8px 25px;
+    border-radius: 20px;
+    color: white;
+    margin-top: -5px;
+    border: none;
+}
+.upper-sec{
+    background-color:  #f3fef1;
+
+}
+.banner img{
+    width: 100%;
+}
+.banner{
+    padding: 100px 0px;
     
-position: absolute;
-width: 1440px;
-height: 576px;
-left: 0px;
-top: 0px;
-background: #F0FFF0;
 }
-button{
-    border:none;
-    color:white;
-    border-radius: 15px;
-    padding :9px 25px;
-    cursor: pointer;
-    background-color: #217c58;
+.red-txt{
+    color: red;
 }
-.color-text{
-    color: #217c58;
+.banner h1{
+    font-weight: bold;
+   font-size: 50px;
+   padding-top: 10px;
+}
+.green-txt{
+    color: #00D000;
+}
+.banner p{
+    color: 	#696969;
+    line-height: 35px;
+    padding-bottom: 4%;
+}
+
+.key-feature-box p{
+    color: 	#696969;
 }
 
 
-  .navbar-nav { 
-    margin:center; 
+
+.key-features-sec img {
+    width: 50px;
+    padding-bottom: 20px;
+}
+.key-feature-box{
+   border-radius: 10px;
+    padding: 40px 0px;
+}
+.green-bg{
+    background-color: #F8FFFB;
+}
+.key-features-sec, .online-course-sec{
+    margin-top: 40px;
+    margin-bottom: 80px;
     
-}   
- .img-responsive {
-    height: auto;
-    width: auto;
-    max-height: 72px;
-    max-width: 250px;
- } 
+}
+.box-shadow{
+   box-shadow: 10px 10px  50px #E8E8E8;
+
+}
+#card-green-btn{
+    font-size: small;
+    padding: 5px 20px;
+}
+
+.icon-img  {
+    width: 20px;;
+}
 .card-img-top{
-    width: 20%;
+    padding: 10px;
 }
-.card-title h5{
-    text-align: center;
-}
-.card-text{
-    text-align: center;
-
+.card{
+    border: none;
+    box-shadow: 10px 10px  30px #E8E8E8;
+    border-radius: 15px;
 }
 
+.course-info{
+    padding-top: 30px;
+}
+.card-title{
+    color: #413960;
+}
+.card-text, .course-info small{
+    color: #585859;
+}
+.card-heading{
+    padding-bottom: 50px;
+    color: #413960;
+}
+.testmonial img{
+    width: 50px;
+   
+}
+.d-block{
+    border-radius: 200%;
+}
+.reviews{
+    width: 60%;
+}
+.reviews{
+    margin: 0 auto;
+}
+.review-item{
+    padding: 20px;
+}
+.demo-client{
+    border-radius: 40%;
+}
+.carousel-indicators li {
+    background-color: green;
+    
+}
+
+.carousel-indicators{
+margin-bottom: -50px;
+}
+footer{
+   
+    background-color: #282531;
+    margin-top: 200px;
+    color: rgb(204, 204, 204);
+}
+
+
+
+.footer-txt{
+    padding-top: 30px;
+}
+.footer{
+    padding-bottom: 100px;
+}
+.social-icon{
+    width: 50px;
+    padding: 5px ;
+}
 
 
 
 
+@media (min-width: 276px) { 
+    .banner h1{
+        font-weight: bold;
+       font-size: 30px;
+      
+    }
 
 
+    .testimonial img{
+        width: 50%;
+        margin: 0 auto;
+        padding: 10px 5px;
+        
+    }
+    .slider{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+        padding: 0px;
+    }
+
+ }
 
 
+@media (min-width: 768px) { 
+    .banner h1{
+        font-weight: bold;
+       font-size: 50px;
+       padding-top: 10px;
+    }
+    .testimonial img{
+        width: 100%;
+    }
+    .slider{
+        width: 70%;
+    }
+    .footer{
+        padding-bottom: 100px;
+    }
+ }
+
+@media (min-width: 992px) { 
+    .banner h1{
+        font-weight: bold;
+       font-size: 50px;
+       padding-top: 10px;
+    }
+    .testimonial img{
+        width: 100%;
+    }
+ }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  footer{
-    position: absolute;
-width: 1463px;
-height: 369px;
-left: 0px;
-top: 2007px;
-
-background: #282531;
-  }
+@media (min-width: 1200px) { 
+ 
+    .banner h1{
+        font-weight: bold;
+       font-size: 50px;
+       padding-top: 10px;
+    }
+    .testimonial img{
+        width: 100%;
+    }
+ }
