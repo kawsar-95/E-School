@@ -1,222 +1,204 @@
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-header img{
-    width: 200px;
-    padding-top: 10px;
+header img {
+  width: 200px;
+  padding-top: 10px;
 }
-.navbar-light .navbar-nav .nav-link{
-    color: black;
-    padding: 0px 20px;
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  padding: 0px 20px;
 }
-.container{
-    width: 80%;
-    margin: 0 auto;
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
-#green-btn, #card-green-btn{
-    background-color: #21B573;
-    padding: 8px 25px;
-    border-radius: 20px;
-    color: white;
-    margin-top: -5px;
-    border: none;
+#green-btn,
+#card-green-btn {
+  background-color: #21b573;
+  padding: 8px 25px;
+  border-radius: 20px;
+  color: white;
+  margin-top: -5px;
+  border: none;
 }
-.upper-sec{
-    background-color:  #f3fef1;
-
+.upper-sec {
+  background-color: #f3fef1;
 }
-.banner img{
-    width: 100%;
+.banner img {
+  width: 100%;
 }
-.banner{
-    padding: 100px 0px;
-    
+.banner {
+  padding: 100px 0px;
 }
-.red-txt{
-    color: red;
+.red-txt {
+  color: red;
 }
-.banner h1{
-    font-weight: bold;
-   font-size: 50px;
-   padding-top: 10px;
+.banner h1 {
+  font-weight: bold;
+  font-size: 50px;
+  padding-top: 10px;
 }
-.green-txt{
-    color: #00D000;
+.green-txt {
+  color: #00d000;
 }
-.banner p{
-    color: 	#696969;
-    line-height: 35px;
-    padding-bottom: 4%;
-}
-
-.key-feature-box p{
-    color: 	#696969;
+.banner p {
+  color: #696969;
+  line-height: 35px;
+  padding-bottom: 4%;
 }
 
-
+.key-feature-box p {
+  color: #696969;
+}
 
 .key-features-sec img {
-    width: 50px;
-    padding-bottom: 20px;
+  width: 50px;
+  padding-bottom: 20px;
 }
-.key-feature-box{
-   border-radius: 10px;
-    padding: 40px 0px;
+.key-feature-box {
+  border-radius: 10px;
+  padding: 40px 0px;
 }
-.green-bg{
-    background-color: #F8FFFB;
+.green-bg {
+  background-color: #f8fffb;
 }
-.key-features-sec, .online-course-sec{
-    margin-top: 40px;
-    margin-bottom: 80px;
-    
+.key-features-sec,
+.online-course-sec {
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
-.box-shadow{
-   box-shadow: 10px 10px  50px #E8E8E8;
-
+.box-shadow {
+  box-shadow: 10px 10px 50px #e8e8e8;
 }
-#card-green-btn{
-    font-size: small;
-    padding: 5px 20px;
-}
-
-.icon-img  {
-    width: 20px;;
-}
-.card-img-top{
-    padding: 10px;
-}
-.card{
-    border: none;
-    box-shadow: 10px 10px  30px #E8E8E8;
-    border-radius: 15px;
+#card-green-btn {
+  font-size: small;
+  padding: 5px 20px;
 }
 
-.course-info{
-    padding-top: 30px;
+.icon-img {
+  width: 20px;
 }
-.card-title{
-    color: #413960;
+.card-img-top {
+  padding: 10px;
 }
-.card-text, .course-info small{
-    color: #585859;
+.card {
+  border: none;
+  box-shadow: 10px 10px 30px #e8e8e8;
+  border-radius: 15px;
 }
-.card-heading{
-    padding-bottom: 50px;
-    color: #413960;
+
+.course-info {
+  padding-top: 30px;
 }
-.testmonial img{
-    width: 50px;
-   
+.card-title {
+  color: #413960;
 }
-.d-block{
-    border-radius: 200%;
+.card-text,
+.course-info small {
+  color: #585859;
 }
-.reviews{
-    width: 60%;
+.card-heading {
+  padding-bottom: 50px;
+  color: #413960;
 }
-.reviews{
-    margin: 0 auto;
+.testmonial img {
+  width: 50px;
 }
-.review-item{
-    padding: 20px;
+.d-block {
+  border-radius: 200%;
 }
-.demo-client{
-    border-radius: 40%;
+.reviews {
+  width: 60%;
+}
+.reviews {
+  margin: 0 auto;
+}
+.review-item {
+  padding: 20px;
+}
+.demo-client {
+  border-radius: 40%;
 }
 .carousel-indicators li {
-    background-color: green;
-    
+  background-color: green;
 }
 
-.carousel-indicators{
-margin-bottom: -50px;
+.carousel-indicators {
+  margin-bottom: -50px;
 }
-footer{
-   
-    background-color: #282531;
-    margin-top: 200px;
-    color: rgb(204, 204, 204);
+footer {
+  background-color: #282531;
+  margin-top: 200px;
+  color: rgb(204, 204, 204);
 }
 
-
-
-.footer-txt{
-    padding-top: 30px;
+.footer-txt {
+  padding-top: 30px;
 }
-.footer{
+.footer {
+  padding-bottom: 100px;
+}
+.social-icon {
+  width: 50px;
+  padding: 5px;
+}
+
+@media (min-width: 276px) {
+  .banner h1 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .testimonial img {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 5px;
+  }
+  .slider {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner h1 {
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 10px;
+  }
+  .testimonial img {
+    width: 100%;
+  }
+  .slider {
+    width: 70%;
+  }
+  .footer {
     padding-bottom: 100px;
-}
-.social-icon{
-    width: 50px;
-    padding: 5px ;
+  }
 }
 
+@media (min-width: 992px) {
+  .banner h1 {
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 10px;
+  }
+  .testimonial img {
+    width: 100%;
+  }
+}
 
-
-
-@media (min-width: 276px) { 
-    .banner h1{
-        font-weight: bold;
-       font-size: 30px;
-      
-    }
-
-
-    .testimonial img{
-        width: 50%;
-        margin: 0 auto;
-        padding: 10px 5px;
-        
-    }
-    .slider{
-        width: 100%;
-    }
-    .footer{
-        width: 100%;
-        padding: 0px;
-    }
-
- }
-
-
-@media (min-width: 768px) { 
-    .banner h1{
-        font-weight: bold;
-       font-size: 50px;
-       padding-top: 10px;
-    }
-    .testimonial img{
-        width: 100%;
-    }
-    .slider{
-        width: 70%;
-    }
-    .footer{
-        padding-bottom: 100px;
-    }
- }
-
-@media (min-width: 992px) { 
-    .banner h1{
-        font-weight: bold;
-       font-size: 50px;
-       padding-top: 10px;
-    }
-    .testimonial img{
-        width: 100%;
-    }
- }
-
-
-@media (min-width: 1200px) { 
- 
-    .banner h1{
-        font-weight: bold;
-       font-size: 50px;
-       padding-top: 10px;
-    }
-    .testimonial img{
-        width: 100%;
-    }
- }
+@media (min-width: 1200px) {
+  .banner h1 {
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 10px;
+  }
+  .testimonial img {
+    width: 100%;
+  }
+}
